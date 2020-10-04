@@ -74,7 +74,7 @@ def full_check(board):
 def play_again():
     return input("Do you want to play again?").lower().startswith('y')
     
-# HERE STARTS CODE FOR THE GAME    
+# Here is the main driver function of the game
 print("  *****WELCOME TO THE TIC TAC TOE GAME*****  ")
 while True:
     game_board = [' ']*10
